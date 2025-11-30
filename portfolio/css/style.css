@@ -41,7 +41,7 @@ body{
 .hero-preview{width:260px;height:160px;display:flex;align-items:center;justify-content:center;background:linear-gradient(180deg, rgba(0,208,255,0.06), rgba(0,163,255,0.03));border-radius:12px;box-shadow:0 8px 30px rgba(0,160,255,0.06);backdrop-filter: blur(4px)}
 .preview-card{font-weight:600;color:var(--neon);}
 .profile{
-  width: 300px;
+  width: 250px;
 }
 
 .section-title{font-size:20px;color:var(--neon);margin-bottom:16px}
