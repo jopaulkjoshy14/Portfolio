@@ -69,3 +69,14 @@ body{
   .header-inner{flex-direction:column;gap:10px}
   .container{padding:20px}
 }
+.project-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+}
+.card:hover .project-img {
+  transform: scale(1.02);
+  transition: transform 0.2s ease;
+}
