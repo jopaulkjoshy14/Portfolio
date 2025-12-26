@@ -1,4 +1,4 @@
-![Portfolio Screenshot](. portfolio/assets/portfolio.png)
+![Portfolio Screenshot](./portfolio/assets/portfolio.png)
 # Portfolio Website
 
 This is my personal portfolio website built to showcase my projects, skills, and learning progress as a beginner web developer.
