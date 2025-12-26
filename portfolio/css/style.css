@@ -121,6 +121,10 @@ body{
   outline-offset:3px;
 }
 
+.card h4 {
+  font-size: 18px;
+}
+
 .primary{
   background:linear-gradient(90deg,var(--neon),var(--accent));
   color:#001018;
