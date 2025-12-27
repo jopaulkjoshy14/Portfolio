@@ -1,4 +1,5 @@
 ![Portfolio Screenshot](./portfolio/assets/portfolio.png)
+
 # Portfolio Website
 
 This is my personal portfolio website built to showcase my projects, skills, and learning progress as a beginner web developer.
@@ -20,7 +21,7 @@ https://portfolio-kuf9.onrender.com
 
 ---
 
-## 📂 Features
+## ✨ Features
 
 - Responsive layout for desktop and mobile  
 - Project showcase with live demo links  
