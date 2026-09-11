@@ -1,488 +1,392 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <title>Jopaul K Joshy — Developer Portfolio</title>
-  <meta
-    name="description"
-    content="Portfolio of Jopaul K Joshy — developer building practical, secure, and deployable web applications."
-  />
-
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-
-<body>
-
-  <!-- Header -->
-  <header class="site-header">
-    <div class="container header-inner">
-
-      <a href="#top" class="brand" aria-label="Jopaul K Joshy home">
-        <span class="brand-mark">J</span>
-        <span class="brand-name">Jopaul K Joshy</span>
-      </a>
-
-      <nav class="nav" aria-label="Main navigation">
-        <a href="#projects">Work</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-        <a class="nav-resume" href="#resume">Resume <span>↗</span></a>
-      </nav>
-
-      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
-        <span></span>
-        <span></span>
-      </button>
-
+<section class="section projects-section" id="work">
+  <div class="section-heading">
+    <div>
+      <p class="section-kicker">Selected work</p>
+      <h2>Projects built to solve real problems.</h2>
     </div>
-  </header>
 
+    <p class="section-intro">
+      A selection of applications exploring security, image processing,
+      cryptography, and practical web development.
+    </p>
+  </div>
 
-  <main id="top">
+  <div class="projects-grid">
 
-    <!-- Hero -->
-    <section class="hero">
-      <div class="container hero-inner">
-
-        <div class="hero-copy">
-
-          <p class="eyebrow">
-            <span class="status-dot"></span>
-            Developer · Builder · Learner
-          </p>
-
-          <h1>
-            Building useful things<br />
-            <span>with code.</span>
-          </h1>
-
-          <p class="hero-description">
-            Hi, I'm <strong>Jopaul</strong> — a developer who enjoys turning
-            ideas into practical, secure, and deployable web applications.
-          </p>
-
-          <div class="hero-actions">
-            <a class="button button-primary" href="#projects">
-              Explore my work
-              <span>↗</span>
-            </a>
-
-            <a class="button button-secondary" href="#contact">
-              Let's connect
-            </a>
+    <!-- SecureNotes -->
+    <article class="project-card project-card-featured">
+      <div class="project-visual project-visual-notes">
+        <div class="mock-browser">
+          <div class="mock-browser-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+            <small>SecureNotes</small>
           </div>
 
-          <p class="hero-note">
-            Open to internships, collaboration, and interesting projects.
-          </p>
+          <div class="notes-preview">
+            <aside class="notes-sidebar">
+              <div class="mock-logo">SN</div>
+              <div class="mock-sidebar-line active"></div>
+              <div class="mock-sidebar-line"></div>
+              <div class="mock-sidebar-line"></div>
+              <div class="mock-sidebar-line short"></div>
+            </aside>
 
-        </div>
-
-
-        <div class="hero-visual">
-
-          <div class="visual-label visual-label-top">
-            <span class="label-line"></span>
-            <span>Based in India</span>
-          </div>
-
-          <div class="profile-frame">
-            <div class="profile-glow"></div>
-
-            <div class="profile-image-wrap">
-              <img
-                src="assets/Profile.jpg"
-                alt="Portrait of Jopaul K Joshy"
-                class="profile-image"
-              />
-            </div>
-
-            <div class="profile-caption">
-              <div>
-                <span class="caption-label">Currently building</span>
-                <strong>Secure &amp; practical software</strong>
+            <div class="notes-main">
+              <div class="mock-toolbar">
+                <span class="mock-title-line"></span>
+                <span class="mock-icon"></span>
               </div>
-              <span class="caption-arrow">↗</span>
+
+              <div class="mock-note-grid">
+                <div class="mock-note">
+                  <span class="mock-note-label"></span>
+                  <strong>Private thoughts</strong>
+                  <p></p>
+                  <p class="short"></p>
+                </div>
+
+                <div class="mock-note">
+                  <span class="mock-note-label"></span>
+                  <strong>Project ideas</strong>
+                  <p></p>
+                  <p class="short"></p>
+                </div>
+
+                <div class="mock-note">
+                  <span class="mock-note-label"></span>
+                  <strong>Important tasks</strong>
+                  <p></p>
+                  <p class="short"></p>
+                </div>
+              </div>
             </div>
           </div>
+        </div>
+      </div>
 
-          <div class="visual-label visual-label-bottom">
-            <span>Available for opportunities</span>
-            <span class="label-line"></span>
-          </div>
-
+      <div class="project-content">
+        <div class="project-meta">
+          <span class="project-number">01</span>
+          <span class="project-type">Web application</span>
         </div>
 
-      </div>
-    </section>
+        <h3>SecureNotes</h3>
 
+        <p>
+          A secure notes application with a clean, responsive interface for
+          creating, managing, and protecting personal notes.
+        </p>
 
-    <!-- Technology strip -->
-    <section class="tech-strip" aria-label="Technologies">
-      <div class="container tech-inner">
-        <span class="tech-intro">Tools I work with</span>
-
-        <div class="tech-list">
-          <span>HTML</span>
-          <i>·</i>
-          <span>CSS</span>
-          <i>·</i>
+        <div class="project-tags">
           <span>JavaScript</span>
-          <i>·</i>
+          <span>Security</span>
+          <span>Web App</span>
+          <span>Render</span>
+        </div>
+
+        <div class="project-links">
+          <a
+            href="https://github.com/jopaulkjoshy14/SecureNotes"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub <span>↗</span>
+          </a>
+
+          <a
+            href="https://securenotes-kmpl.onrender.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Live demo <span>↗</span>
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Quantum Safe File Sharing -->
+    <article class="project-card project-card-featured project-card-quantum">
+      <div class="project-visual project-visual-quantum">
+        <div class="quantum-preview">
+          <div class="quantum-topbar">
+            <div class="mock-logo">QZ</div>
+            <span class="quantum-status">
+              <i></i>
+              Encrypted workspace
+            </span>
+          </div>
+
+          <div class="quantum-body">
+            <div class="quantum-file-list">
+              <div class="quantum-heading-line"></div>
+
+              <div class="quantum-file active">
+                <span class="file-symbol">▣</span>
+                <div>
+                  <strong>research-document.pdf</strong>
+                  <small>Encrypted file</small>
+                </div>
+                <span class="lock-symbol">⌑</span>
+              </div>
+
+              <div class="quantum-file">
+                <span class="file-symbol">▣</span>
+                <div>
+                  <strong>project-notes.txt</strong>
+                  <small>Encrypted file</small>
+                </div>
+                <span class="lock-symbol">⌑</span>
+              </div>
+
+              <div class="quantum-file">
+                <span class="file-symbol">▣</span>
+                <div>
+                  <strong>presentation.pptx</strong>
+                  <small>Encrypted file</small>
+                </div>
+                <span class="lock-symbol">⌑</span>
+              </div>
+            </div>
+
+            <div class="quantum-inspector">
+              <div class="inspector-lock">⌑</div>
+              <strong>Provider-blind storage</strong>
+              <p>
+                File plaintext and plaintext decryption keys remain outside
+                the cloud provider’s view.
+              </p>
+
+              <div class="inspector-line">
+                <span>File encryption</span>
+                <b>AES-256-GCM</b>
+              </div>
+
+              <div class="inspector-line">
+                <span>Key encapsulation</span>
+                <b>ML-KEM-768</b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-content">
+        <div class="project-meta">
+          <span class="project-number">02</span>
+          <span class="project-type">Major project</span>
+        </div>
+
+        <h3>Quantum Safe Zero Knowledge File Sharing System</h3>
+
+        <p>
+          A client-side encrypted file-sharing system designed to keep file
+          plaintext and plaintext decryption keys inaccessible to the cloud
+          storage provider.
+        </p>
+
+        <div class="project-tags">
           <span>React</span>
-          <i>·</i>
           <span>Node.js</span>
-          <i>·</i>
           <span>MongoDB</span>
-          <i>·</i>
-          <span>Git</span>
-        </div>
-      </div>
-    </section>
-
-
-    <!-- Projects -->
-    <section id="projects" class="section projects-section">
-      <div class="container">
-
-        <div class="section-heading">
-          <div>
-            <p class="section-kicker">Selected work</p>
-            <h2>Projects that<br /><span>do something.</span></h2>
-          </div>
-
-          <p class="section-intro">
-            A selection of practical applications and experiments built
-            while learning, exploring, and solving real problems.
-          </p>
+          <span>AES-256-GCM</span>
+          <span>ML-KEM-768</span>
         </div>
 
-
-        <div class="project-grid">
-
-          <!-- SecureNotes -->
-          <article class="project-card project-card-featured">
-
-            <a
-              href="https://securenotes-kmpl.onrender.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="project-visual project-visual-notes"
-              aria-label="Open SecureNotes live demo"
-            >
-              <div class="visual-browser">
-                <div class="browser-bar">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
-
-                <div class="notes-preview">
-                  <div class="notes-sidebar">
-                    <div class="mock-logo">S</div>
-                    <div class="mock-line short"></div>
-                    <div class="mock-line"></div>
-                    <div class="mock-line"></div>
-                  </div>
-
-                  <div class="notes-content">
-                    <div class="mock-heading"></div>
-                    <div class="mock-line long"></div>
-                    <div class="mock-line"></div>
-                    <div class="mock-line medium"></div>
-                    <div class="mock-note-box"></div>
-                  </div>
-                </div>
-              </div>
-
-              <span class="project-open">View live demo ↗</span>
-            </a>
-
-            <div class="project-content">
-              <div class="project-meta">
-                <span class="project-number">01</span>
-                <span class="project-type">Web Application</span>
-              </div>
-
-              <h3>SecureNotes</h3>
-
-              <p>
-                A secure notes application focused on client-side encryption,
-                authentication, and a clean, usable interface.
-              </p>
-
-              <div class="project-tags">
-                <span>HTML</span>
-                <span>JavaScript</span>
-                <span>Web Crypto</span>
-                <span>LocalStorage</span>
-              </div>
-
-              <div class="project-links">
-                <a
-                  href="https://securenotes-kmpl.onrender.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Live Demo <span>↗</span>
-                </a>
-
-                <a
-                  href="https://github.com/jopaulkjoshy14/SecureNotes"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  GitHub <span>↗</span>
-                </a>
-              </div>
-            </div>
-
-          </article>
-
-
-          <!-- Registration Form -->
-          <article class="project-card">
-
-            <a
-              href="https://registrationform-37ca.onrender.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="project-visual project-visual-form"
-              aria-label="Open Registration Form live demo"
-            >
-              <div class="visual-browser">
-                <div class="browser-bar">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
-
-                <div class="form-preview">
-                  <div class="form-title"></div>
-                  <div class="form-subtitle"></div>
-
-                  <div class="form-row">
-                    <div class="mock-input"></div>
-                    <div class="mock-input"></div>
-                  </div>
-
-                  <div class="mock-input full"></div>
-                  <div class="mock-input full"></div>
-                  <div class="mock-button"></div>
-                </div>
-              </div>
-
-              <span class="project-open">View live demo ↗</span>
-            </a>
-
-            <div class="project-content">
-              <div class="project-meta">
-                <span class="project-number">02</span>
-                <span class="project-type">Frontend Project</span>
-              </div>
-
-              <h3>Registration Form</h3>
-
-              <p>
-                A responsive registration form with frontend validation,
-                designed for practical use in websites and small applications.
-              </p>
-
-              <div class="project-tags">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-                <span>Validation</span>
-              </div>
-
-              <div class="project-links">
-                <a
-                  href="https://registrationform-37ca.onrender.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Live Demo <span>↗</span>
-                </a>
-
-                <a
-                  href="https://github.com/jopaulkjoshy14/RegistrationForm"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  GitHub <span>↗</span>
-                </a>
-              </div>
-            </div>
-
-          </article>
-
-
-          <!-- Upcoming project -->
-          <article class="project-card project-card-upcoming">
-
-            <div class="project-visual project-visual-upcoming">
-              <div class="upcoming-symbol">+</div>
-              <span>More projects in progress</span>
-            </div>
-
-            <div class="project-content">
-              <div class="project-meta">
-                <span class="project-number">03</span>
-                <span class="project-type">Coming next</span>
-              </div>
-
-              <h3>More to explore</h3>
-
-              <p>
-                New projects, experiments, and larger applications will
-                continue to find their place here.
-              </p>
-
-              <div class="project-tags">
-                <span>Building</span>
-                <span>Learning</span>
-                <span>Exploring</span>
-              </div>
-            </div>
-
-          </article>
-
-        </div>
-
-      </div>
-    </section>
-
-
-    <!-- About -->
-    <section id="about" class="section about-section">
-      <div class="container about-grid">
-
-        <div class="about-heading">
-          <p class="section-kicker">A little about me</p>
-          <h2>Curious by nature.<br /><span>Practical by choice.</span></h2>
-        </div>
-
-        <div class="about-content">
-          <p class="about-lead">
-            I enjoy building software that is not only functional,
-            but also understandable, responsive, and useful.
-          </p>
-
-          <p>
-            My work spans frontend development, backend fundamentals,
-            databases, deployment, and security-focused applications.
-            I like learning by building—taking an idea, working through
-            the technical details, and turning it into something people
-            can actually use.
-          </p>
-
-          <div class="about-details">
-            <div class="detail-block">
-              <span class="detail-label">Focus areas</span>
-              <strong>Web Development<br />Security &amp; Cryptography<br />Practical Applications</strong>
-            </div>
-
-            <div class="detail-block">
-              <span class="detail-label">Currently learning</span>
-              <strong>Full-Stack Development<br />Computer Science Fundamentals<br />Software Engineering</strong>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-
-    <!-- Resume -->
-    <section id="resume" class="section resume-section">
-      <div class="container resume-inner">
-
-        <div>
-          <p class="section-kicker">Want to know more?</p>
-          <h2>Let's talk about<br /><span>what I can build.</span></h2>
-        </div>
-
-        <div class="resume-action">
-          <p>
-            My portfolio is a work in progress, and I'm always open
-            to learning, collaborating, and taking on new challenges.
-          </p>
-
-          <a class="button button-primary" href="#contact">
-            Get in touch <span>↗</span>
-          </a>
-        </div>
-
-      </div>
-    </section>
-
-
-    <!-- Contact -->
-    <section id="contact" class="section contact-section">
-      <div class="container">
-
-        <div class="contact-top">
-          <div>
-            <p class="section-kicker">Contact</p>
-            <h2>Have an idea?<br /><span>Let's connect.</span></h2>
-          </div>
-
-          <p class="contact-description">
-            Whether it's a project, an opportunity, or just a conversation
-            about technology, feel free to reach out.
-          </p>
-        </div>
-
-        <div class="contact-links">
-
-          <a href="mailto:jopaulkjoshy14@gmail.com" class="contact-link">
-            <span class="contact-link-label">Email</span>
-            <span class="contact-link-value">jopaulkjoshy14@gmail.com</span>
-            <span class="contact-link-arrow">↗</span>
+        <div class="project-links">
+          <a
+            href="https://github.com/jopaulkjoshy14/Quantum-Safe-ZK-File-Sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub <span>↗</span>
           </a>
 
           <a
-            href="https://github.com/jopaulkjoshy14"
+            href="https://qszkfss-frontend.onrender.com"
             target="_blank"
             rel="noopener noreferrer"
-            class="contact-link"
           >
-            <span class="contact-link-label">GitHub</span>
-            <span class="contact-link-value">jopaulkjoshy14</span>
-            <span class="contact-link-arrow">↗</span>
+            Live demo <span>↗</span>
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Parallel AI Image Analysis -->
+    <article class="project-card">
+      <div class="project-visual project-visual-analysis">
+        <div class="analysis-preview">
+          <div class="analysis-topbar">
+            <div class="mock-logo">PA</div>
+            <span>Image Analysis</span>
+            <span class="analysis-badge">Benchmark</span>
+          </div>
+
+          <div class="analysis-body">
+            <div class="analysis-upload">
+              <div class="upload-icon">↑</div>
+              <strong>Upload image</strong>
+              <small>Drop an image to begin analysis</small>
+            </div>
+
+            <div class="analysis-results">
+              <div class="analysis-result-heading">
+                <span>Analysis results</span>
+                <small>Completed</small>
+              </div>
+
+              <div class="metric-row">
+                <span>Processing time</span>
+                <b>124 ms</b>
+              </div>
+
+              <div class="metric-row">
+                <span>Worker utilization</span>
+                <b>87%</b>
+              </div>
+
+              <div class="metric-row">
+                <span>Analysis status</span>
+                <b class="success-text">Ready</b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-content">
+        <div class="project-meta">
+          <span class="project-number">03</span>
+          <span class="project-type">Image processing</span>
+        </div>
+
+        <h3>Parallel AI Image Analysis</h3>
+
+        <p>
+          A browser-based image analysis and benchmarking platform designed
+          to evaluate image-processing workflows using parallel background
+          workers.
+        </p>
+
+        <div class="project-tags">
+          <span>JavaScript</span>
+          <span>Web Workers</span>
+          <span>Image Processing</span>
+          <span>Benchmarking</span>
+        </div>
+
+        <div class="project-links">
+          <a
+            href="https://github.com/jopaulkjoshy14/Parallel-AI-Image-Analysis"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub <span>↗</span>
           </a>
 
           <a
-            href="https://www.linkedin.com/in/jopaul-k-joshy-75a7a6299"
+            href="https://parallel-ai-image-analysis.onrender.com"
             target="_blank"
             rel="noopener noreferrer"
-            class="contact-link"
           >
-            <span class="contact-link-label">LinkedIn</span>
-            <span class="contact-link-value">Jopaul K Joshy</span>
-            <span class="contact-link-arrow">↗</span>
+            Live demo <span>↗</span>
           </a>
+        </div>
+      </div>
+    </article>
 
+    <!-- Cryptographic Treasure Hunt -->
+    <article class="project-card">
+      <div class="project-visual project-visual-treasure">
+        <div class="treasure-preview">
+          <div class="treasure-topbar">
+            <div class="mock-logo">CT</div>
+            <span>Cryptographic Treasure Hunt</span>
+          </div>
+
+          <div class="treasure-body">
+            <div class="treasure-card">
+              <div class="treasure-card-top">
+                <span class="treasure-label">Encrypted clue</span>
+                <span class="treasure-lock">⌑</span>
+              </div>
+
+              <div class="cipher-lines">
+                <span></span>
+                <span></span>
+                <span class="medium"></span>
+                <span class="short"></span>
+              </div>
+
+              <div class="treasure-code">
+                AES-256-GCM
+              </div>
+            </div>
+
+            <div class="treasure-card qr-card">
+              <div class="fake-qr">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+
+              <div>
+                <strong>Scan to reveal clue</strong>
+                <small>Key required for decryption</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-content">
+        <div class="project-meta">
+          <span class="project-number">04</span>
+          <span class="project-type">Cryptographic utility</span>
         </div>
 
+        <h3>Cryptographic Treasure Hunt</h3>
+
+        <p>
+          A browser-based cryptographic treasure hunt platform where
+          organizers encrypt clues and participants decrypt them using a
+          separately distributed secret key.
+        </p>
+
+        <div class="project-tags">
+          <span>JavaScript</span>
+          <span>Web Crypto API</span>
+          <span>AES-256-GCM</span>
+          <span>QR Code</span>
+        </div>
+
+        <div class="project-links">
+          <a
+            href="https://github.com/jopaulkjoshy14/Cryptographic-Treasure-Hunt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub <span>↗</span>
+          </a>
+
+          <a
+            href="https://cryptographic-treasure-hunt.onrender.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Live demo <span>↗</span>
+          </a>
+        </div>
       </div>
-    </section>
+    </article>
 
-  </main>
-
-
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <span>© 2026 Jopaul K Joshy</span>
-      <span>Designed &amp; built with HTML, CSS &amp; JavaScript</span>
-      <a href="#top">Back to top ↑</a>
-    </div>
-  </footer>
-
-
-  <script src="js/main.js"></script>
-</body>
-</html>
+  </div>
+</section>
