@@ -14,7 +14,11 @@
   <title>Jopaul K Joshy | Developer Portfolio</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
 
   <link
     href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
@@ -35,10 +39,15 @@
         <span class="brand-name">Jopaul K Joshy</span>
       </a>
 
-      <nav class="nav" id="primary-navigation" aria-label="Primary navigation">
+      <nav
+        class="nav"
+        id="primary-navigation"
+        aria-label="Primary navigation"
+      >
         <a href="#projects">Work</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
+
         <a class="nav-resume" href="#resume">
           Resume
           <span aria-hidden="true">↗</span>
@@ -147,343 +156,355 @@
       </div>
     </section>
 
-<!-- Projects -->
-<section id="projects" class="section projects-section">
-  <div class="container">
+    <!-- Projects -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
 
-    <div class="section-heading">
-      <div>
-        <p class="eyebrow">Selected work</p>
-        <h2>Projects built to solve real problems.</h2>
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2>Projects built to solve real problems.</h2>
+          </div>
+
+          <p class="section-heading-description">
+            A collection of applications focused on security, usability,
+            experimentation, and practical engineering.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- SecureNotes -->
+          <article class="project-card project-card-featured">
+
+            <div class="project-preview">
+              <div class="project-preview-header">
+                <div
+                  class="project-preview-dots"
+                  aria-hidden="true"
+                >
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+
+                <span class="project-preview-label">
+                  Live application preview
+                </span>
+
+                <a
+                  href="https://securenotes-kmpl.onrender.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-preview-open"
+                  aria-label="Open SecureNotes in a new tab"
+                >
+                  ↗
+                </a>
+              </div>
+
+              <div class="project-preview-frame">
+                <iframe
+                  src="https://securenotes-kmpl.onrender.com"
+                  title="SecureNotes live application preview"
+                  loading="lazy"
+                  referrerpolicy="no-referrer"
+                ></iframe>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-number">01</div>
+
+              <div class="project-title-row">
+                <h3>SecureNotes</h3>
+
+                <div class="project-links">
+                  <a
+                    href="https://github.com/jopaulkjoshy14/SecureNotes"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View SecureNotes source code on GitHub"
+                  >
+                    GitHub ↗
+                  </a>
+
+                  <a
+                    href="https://securenotes-kmpl.onrender.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Open SecureNotes live application"
+                  >
+                    Live ↗
+                  </a>
+                </div>
+              </div>
+
+              <p>
+                A clean and secure note-taking application designed for
+                creating, organizing, and managing personal notes through a
+                focused interface.
+              </p>
+
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Security</span>
+              </div>
+            </div>
+
+          </article>
+
+          <!-- Quantum Safe File Sharing -->
+          <article class="project-card">
+
+            <div class="project-preview">
+              <div class="project-preview-header">
+                <div
+                  class="project-preview-dots"
+                  aria-hidden="true"
+                >
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+
+                <span class="project-preview-label">
+                  Live application preview
+                </span>
+
+                <a
+                  href="https://qszkfss-frontend.onrender.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-preview-open"
+                  aria-label="Open Quantum Safe File Sharing in a new tab"
+                >
+                  ↗
+                </a>
+              </div>
+
+              <div class="project-preview-frame">
+                <iframe
+                  src="https://qszkfss-frontend.onrender.com"
+                  title="Quantum Safe File Sharing live application preview"
+                  loading="lazy"
+                  referrerpolicy="no-referrer"
+                ></iframe>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-number">02</div>
+
+              <div class="project-title-row">
+                <h3>Quantum Safe File Sharing</h3>
+
+                <div class="project-links">
+                  <a
+                    href="https://github.com/jopaulkjoshy14/Quantum-Safe-ZK-File-Sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Quantum Safe File Sharing source code on GitHub"
+                  >
+                    GitHub ↗
+                  </a>
+
+                  <a
+                    href="https://qszkfss-frontend.onrender.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Open Quantum Safe File Sharing live application"
+                  >
+                    Live ↗
+                  </a>
+                </div>
+              </div>
+
+              <p>
+                A provider-blind file-sharing system using browser-side
+                encryption, post-quantum key encapsulation, and encrypted
+                storage to protect file contents from the storage provider.
+              </p>
+
+              <div class="project-tags">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+                <span>Cryptography</span>
+              </div>
+            </div>
+
+          </article>
+
+          <!-- Parallel AI Image Analysis -->
+          <article class="project-card">
+
+            <div class="project-preview">
+              <div class="project-preview-header">
+                <div
+                  class="project-preview-dots"
+                  aria-hidden="true"
+                >
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+
+                <span class="project-preview-label">
+                  Live application preview
+                </span>
+
+                <a
+                  href="https://parallel-ai-image-analysis.onrender.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-preview-open"
+                  aria-label="Open Parallel AI Image Analysis in a new tab"
+                >
+                  ↗
+                </a>
+              </div>
+
+              <div class="project-preview-frame">
+                <iframe
+                  src="https://parallel-ai-image-analysis.onrender.com"
+                  title="Parallel AI Image Analysis live application preview"
+                  loading="lazy"
+                  referrerpolicy="no-referrer"
+                ></iframe>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-number">03</div>
+
+              <div class="project-title-row">
+                <h3>Parallel AI Image Analysis</h3>
+
+                <div class="project-links">
+                  <a
+                    href="https://github.com/jopaulkjoshy14/Parallel-AI-Image-Analysis"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Parallel AI Image Analysis source code on GitHub"
+                  >
+                    GitHub ↗
+                  </a>
+
+                  <a
+                    href="https://parallel-ai-image-analysis.onrender.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Open Parallel AI Image Analysis in a new tab"
+                  >
+                    Live ↗
+                  </a>
+                </div>
+              </div>
+
+              <p>
+                A browser-based image analysis platform that explores
+                parallel processing through dedicated workers for image
+                analysis and benchmarking tasks.
+              </p>
+
+              <div class="project-tags">
+                <span>JavaScript</span>
+                <span>Web Workers</span>
+                <span>OffscreenCanvas</span>
+                <span>AI</span>
+              </div>
+            </div>
+
+          </article>
+
+          <!-- Cryptographic Treasure Hunt -->
+          <article class="project-card">
+
+            <div class="project-preview">
+              <div class="project-preview-header">
+                <div
+                  class="project-preview-dots"
+                  aria-hidden="true"
+                >
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+
+                <span class="project-preview-label">
+                  Live application preview
+                </span>
+
+                <a
+                  href="https://cryptographic-treasure-hunt.onrender.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-preview-open"
+                  aria-label="Open Cryptographic Treasure Hunt in a new tab"
+                >
+                  ↗
+                </a>
+              </div>
+
+              <div class="project-preview-frame">
+                <iframe
+                  src="https://cryptographic-treasure-hunt.onrender.com"
+                  title="Cryptographic Treasure Hunt live application preview"
+                  loading="lazy"
+                  referrerpolicy="no-referrer"
+                ></iframe>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-number">04</div>
+
+              <div class="project-title-row">
+                <h3>Cryptographic Treasure Hunt</h3>
+
+                <div class="project-links">
+                  <a
+                    href="https://github.com/jopaulkjoshy14/Cryptographic-Treasure-Hunt"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Cryptographic Treasure Hunt source code on GitHub"
+                  >
+                    GitHub ↗
+                  </a>
+
+                  <a
+                    href="https://cryptographic-treasure-hunt.onrender.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Open Cryptographic Treasure Hunt live application"
+                  >
+                    Live ↗
+                  </a>
+                </div>
+              </div>
+
+              <p>
+                An interactive browser-based platform where organizers create
+                encrypted clues and participants decrypt them after finding
+                the corresponding ciphertext and secret key.
+              </p>
+
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>Bootstrap</span>
+                <span>Web Crypto API</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+
+          </article>
+
+        </div>
       </div>
-
-      <p class="section-heading-description">
-        A collection of applications focused on security, usability,
-        experimentation, and practical engineering.
-      </p>
-    </div>
-
-    <div class="projects-grid">
-
-      <!-- SecureNotes -->
-      <article class="project-card project-card-featured">
-
-        <div class="project-preview">
-          <div class="project-preview-header">
-            <div class="project-preview-dots" aria-hidden="true">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-
-            <span class="project-preview-label">
-              Live application preview
-            </span>
-
-            <a
-              href="https://securenotes-kmpl.onrender.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="project-preview-open"
-              aria-label="Open SecureNotes in a new tab"
-            >
-              ↗
-            </a>
-          </div>
-
-          <div class="project-preview-frame">
-            <iframe
-              src="https://securenotes-kmpl.onrender.com"
-              title="SecureNotes live application preview"
-              loading="lazy"
-              referrerpolicy="no-referrer"
-            ></iframe>
-          </div>
-        </div>
-
-        <div class="project-content">
-          <div class="project-number">01</div>
-
-          <div class="project-title-row">
-            <h3>SecureNotes</h3>
-
-            <div class="project-links">
-              <a
-                href="https://github.com/jopaulkjoshy14/SecureNotes"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="View SecureNotes source code on GitHub"
-              >
-                GitHub ↗
-              </a>
-
-              <a
-                href="https://securenotes-kmpl.onrender.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Open SecureNotes live application"
-              >
-                Live ↗
-              </a>
-            </div>
-          </div>
-
-          <p>
-            A clean and secure note-taking application designed for
-            creating, organizing, and managing personal notes through a
-            focused interface.
-          </p>
-
-          <div class="project-tags">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>Security</span>
-          </div>
-        </div>
-
-      </article>
-
-      <!-- Quantum Safe File Sharing -->
-      <article class="project-card">
-
-        <div class="project-preview">
-          <div class="project-preview-header">
-            <div class="project-preview-dots" aria-hidden="true">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-
-            <span class="project-preview-label">
-              Live application preview
-            </span>
-
-            <a
-              href="https://qszkfss-frontend.onrender.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="project-preview-open"
-              aria-label="Open Quantum Safe File Sharing in a new tab"
-            >
-              ↗
-            </a>
-          </div>
-
-          <div class="project-preview-frame">
-            <iframe
-              src="https://qszkfss-frontend.onrender.com"
-              title="Quantum Safe File Sharing live application preview"
-              loading="lazy"
-              referrerpolicy="no-referrer"
-            ></iframe>
-          </div>
-        </div>
-
-        <div class="project-content">
-          <div class="project-number">02</div>
-
-          <div class="project-title-row">
-            <h3>Quantum Safe File Sharing</h3>
-
-            <div class="project-links">
-              <a
-                href="https://github.com/jopaulkjoshy14/Quantum-Safe-ZK-File-Sharing"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="View Quantum Safe File Sharing source code on GitHub"
-              >
-                GitHub ↗
-              </a>
-
-              <a
-                href="https://qszkfss-frontend.onrender.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Open Quantum Safe File Sharing live application"
-              >
-                Live ↗
-              </a>
-            </div>
-          </div>
-
-          <p>
-            A provider-blind file-sharing system using browser-side
-            encryption, post-quantum key encapsulation, and encrypted
-            storage to protect file contents from the storage provider.
-          </p>
-
-          <div class="project-tags">
-            <span>React</span>
-            <span>Node.js</span>
-            <span>MongoDB</span>
-            <span>Cryptography</span>
-          </div>
-        </div>
-
-      </article>
-
-      <!-- Parallel AI Image Analysis -->
-      <article class="project-card">
-
-        <div class="project-preview">
-          <div class="project-preview-header">
-            <div class="project-preview-dots" aria-hidden="true">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-
-            <span class="project-preview-label">
-              Live application preview
-            </span>
-
-            <a
-              href="https://parallel-ai-image-analysis.onrender.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="project-preview-open"
-              aria-label="Open Parallel AI Image Analysis in a new tab"
-            >
-              ↗
-            </a>
-          </div>
-
-          <div class="project-preview-frame">
-            <iframe
-              src="https://parallel-ai-image-analysis.onrender.com"
-              title="Parallel AI Image Analysis live application preview"
-              loading="lazy"
-              referrerpolicy="no-referrer"
-            ></iframe>
-          </div>
-        </div>
-
-        <div class="project-content">
-          <div class="project-number">03</div>
-
-          <div class="project-title-row">
-            <h3>Parallel AI Image Analysis</h3>
-
-            <div class="project-links">
-              <a
-                href="https://github.com/jopaulkjoshy14/Parallel-AI-Image-Analysis"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="View Parallel AI Image Analysis source code on GitHub"
-              >
-                GitHub ↗
-              </a>
-
-              <a
-                href="https://parallel-ai-image-analysis.onrender.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Open Parallel AI Image Analysis in a new tab"
-              >
-                Live ↗
-              </a>
-            </div>
-          </div>
-
-          <p>
-            A browser-based image analysis platform that explores
-            parallel processing through dedicated workers for image
-            analysis and benchmarking tasks.
-          </p>
-
-          <div class="project-tags">
-            <span>JavaScript</span>
-            <span>Web Workers</span>
-            <span>OffscreenCanvas</span>
-            <span>AI</span>
-          </div>
-        </div>
-
-      </article>
-
-      <!-- Cryptographic Treasure Hunt -->
-      <article class="project-card">
-
-        <div class="project-preview">
-          <div class="project-preview-header">
-            <div class="project-preview-dots" aria-hidden="true">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-
-            <span class="project-preview-label">
-              Live application preview
-            </span>
-
-            <a
-              href="https://cryptographic-treasure-hunt.onrender.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="project-preview-open"
-              aria-label="Open Cryptographic Treasure Hunt in a new tab"
-            >
-              ↗
-            </a>
-          </div>
-
-          <div class="project-preview-frame">
-            <iframe
-              src="https://cryptographic-treasure-hunt.onrender.com"
-              title="Cryptographic Treasure Hunt live application preview"
-              loading="lazy"
-              referrerpolicy="no-referrer"
-            ></iframe>
-          </div>
-        </div>
-
-        <div class="project-content">
-          <div class="project-number">04</div>
-
-          <div class="project-title-row">
-            <h3>Cryptographic Treasure Hunt</h3>
-
-            <div class="project-links">
-              <a
-                href="https://github.com/jopaulkjoshy14/Cryptographic-Treasure-Hunt"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="View Cryptographic Treasure Hunt source code on GitHub"
-              >
-                GitHub ↗
-              </a>
-
-              <a
-                href="https://cryptographic-treasure-hunt.onrender.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Open Cryptographic Treasure Hunt live application"
-              >
-                Live ↗
-              </a>
-            </div>
-          </div>
-
-          <p>
-            An interactive browser-based platform where organizers create
-            encrypted clues and participants decrypt them after finding
-            the corresponding ciphertext and secret key.
-          </p>
-
-          <div class="project-tags">
-            <span>HTML</span>
-            <span>Bootstrap</span>
-            <span>Web Crypto API</span>
-            <span>JavaScript</span>
-          </div>
-        </div>
-
-      </article>
-
-    </div>
-  </div>
-</section>
+    </section>
 
     <!-- About -->
     <section id="about" class="section about-section">
@@ -540,7 +561,7 @@
       <div class="container resume-inner">
 
         <div>
-          <p class="eyebrow">Experience & skills</p>
+          <p class="eyebrow">Experience &amp; skills</p>
           <h2>Focused on growing as a developer.</h2>
         </div>
 
@@ -621,7 +642,12 @@
             <span class="contact-link-value">
               jopaulkjoshy@gmail.com
             </span>
-            <span class="contact-link-arrow" aria-hidden="true">↗</span>
+            <span
+              class="contact-link-arrow"
+              aria-hidden="true"
+            >
+              ↗
+            </span>
           </a>
 
           <a
@@ -634,7 +660,12 @@
             <span class="contact-link-value">
               github.com/jopaulkjoshy14
             </span>
-            <span class="contact-link-arrow" aria-hidden="true">↗</span>
+            <span
+              class="contact-link-arrow"
+              aria-hidden="true"
+            >
+              ↗
+            </span>
           </a>
 
           <a
@@ -647,7 +678,12 @@
             <span class="contact-link-value">
               Connect professionally
             </span>
-            <span class="contact-link-arrow" aria-hidden="true">↗</span>
+            <span
+              class="contact-link-arrow"
+              aria-hidden="true"
+            >
+              ↗
+            </span>
           </a>
 
         </div>
@@ -656,22 +692,22 @@
 
   </main>
 
-<!-- Footer -->
-<footer class="site-footer">
-  <div class="container footer-inner">
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
 
-    <p>
-      © <span data-current-year></span> Jopaul K Joshy.
-      Built with curiosity and care.
-    </p>
+      <p>
+        © <span data-current-year></span> Jopaul K Joshy.
+        Built with curiosity and care.
+      </p>
 
-    <a href="#top" class="back-to-top">
-      Back to top
-      <span aria-hidden="true">↑</span>
-    </a>
+      <a href="#top" class="back-to-top">
+        Back to top
+        <span aria-hidden="true">↑</span>
+      </a>
 
-  </div>
-</footer>
+    </div>
+  </footer>
 
   <script src="js/main.js"></script>
 </body>
